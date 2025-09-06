@@ -3,7 +3,7 @@
 This repository contains the SQL scripts and queries developed for **Databases 1 (Year 2, Semester 1) labs**.  
 The project simulates a **mini social media platform**, modeling user interactions such as posting photos, liking content, and following other users.  
 
----
+
 
 ## 📂 Project Overview  
 
@@ -16,7 +16,7 @@ The database consists of **four main tables**:
 
 Additionally, indexes, triggers, and analytical queries are included to demonstrate database optimization and functionality.  
 
----
+
 
 ## 🛠️ Features  
 
@@ -41,7 +41,7 @@ Additionally, indexes, triggers, and analytical queries are included to demonstr
   - `auto_follow()` function ensures that when a user likes a photo, they automatically follow the photo’s owner.  
   - Implemented with a trigger on the `Likes` table.  
 
----
+
 
 ## 📊 Example Use Cases  
 
@@ -62,7 +62,7 @@ Additionally, indexes, triggers, and analytical queries are included to demonstr
    - Execute a series of queries for analysis.  
 3. Explore the results to understand how users interact in this simulated social media platform.  
 
----
+
 
 ## 🖼️ ERD (Entity Relationship Diagram)  
 
@@ -72,7 +72,7 @@ Below is the ERD showing the relationships between the four tables:
 
 For verification, a reverse-engineered ERD is also included in the [`docs`](./docs) folder.  
 
----
+
 
 ## 📖 Learning Objectives  
 
@@ -83,4 +83,3 @@ This project demonstrates:
 - Creating and analyzing **indexes**.  
 - Implementing **triggers** for automated actions.  
 
----
